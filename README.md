@@ -1,2 +1,2 @@
 # Skacprowicz.github.io
-This is my first repo, brah!
+This is my first repo!
