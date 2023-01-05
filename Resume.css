@@ -45,13 +45,15 @@ body{
   padding-top: 50px;
   text-align: center;
 }
+
 .two {
   background-color: #1E2021;/*Dark reader color*/
   color: teal;
   font-family: sans-serif;
   grid-column: 2 / 4;
   grid-column-gap: 10px;
-  grid-row: 1 / 3;
+  /* grid-row: 1 / 3; */
+  grid-row: 1 / 10;
   column-gap: 10px;
   margin-right: 5%;
   /* padding-top: 50px; */
@@ -113,10 +115,6 @@ body{
   text-align: left;
 }
 
-.five {
-  /* grid-column: 3; */
-}
-
 .five h5{
   /* color:cornflowerblue; */
   /* color: teal; */
@@ -158,10 +156,10 @@ body{
   grid-row-start: span 2;
 }
 
-.six {
+/* .six {
   grid-column: 3;
   grid-row: 4;
-}
+} */
 /* GRID LAYOUT END */
 
 .hr-profile{
@@ -186,27 +184,45 @@ body{
   color: powderblue;
 }
 
-  .profile-pic{
-      border-radius: 50%;
-      border: 10px solid white;
-      border: 10px solid #f6f9fa;
-  }
+.profile-pic{
+  border-radius: 50%;
+  border: 10px solid white;
+  border: 10px solid #f6f9fa;
+}
 
-  .profile-text-header{
-      display: flex;
-      /* padding-left: 10%; */
-      align-items: center;
-      padding-left: 4ex;
-      padding-top: 1ex;
-      text-align: left;
-      color: powderblue;
-      gap: 1ex;
-  }
+.profile-text-header{
+  display: flex;
+  /* padding-left: 10%; */
+  align-items: center;
+  padding-left: 4ex;
+  padding-top: 1ex;
+  text-align: left;
+  color: powderblue;
+  gap: 1ex;
+}
 
-  .profile-text-header img{
-    width: 1.5em;
-    height: 1.5em;
-  }
+.profile-text-header img{
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.profile-text-credential{
+  color: powderblue;
+  font-family: 'Helvetica';
+  gap: 1ex;
+  padding-left: 4ex;
+  padding-top: 1ex;
+  text-align: left;
+}
+
+.profile-text-date{
+  color: #05e9f9;
+  font-family: 'Helvetica Light';
+  gap: 1ex;
+  padding-left: 4ex;
+  padding-top: 1ex;
+  text-align: left;
+}
 
 /* Add a black background color to the top navigation */
 /*"navbar-inverse" from Fiddlisk.com's css*/
@@ -218,6 +234,7 @@ body{
   font-family: sans-serif;
   /* margin:0px; */
 }
+
 .topnav-brand {
   font-size: 20;
   font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";      
